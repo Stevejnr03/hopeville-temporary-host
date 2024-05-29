@@ -1,0 +1,674 @@
+@media screen and (max-width: 1200px) {
+ 
+.signup-btn{
+ margin-left: 15px;
+ margin-right: 10px;
+}
+}
+@media screen and (max-width: 1150px) {
+ 
+.steps-widget{
+ margin-left:0;
+}
+
+
+}
+
+@media screen and (max-width: 1120px) {
+ 
+.header img{
+ margin-left: 15px;
+}
+
+}
+
+ @media screen and (max-width: 1115px){
+  .about-flex-img{
+ width: 40%;
+ height: 70%;
+}
+  
+  .about-flex-img img{
+   margin-top:20%;
+  }
+  
+  .about-flex-text{
+ width: 60%;
+ height: 100%;
+}
+
+.about-flex-text h2{
+ font-size: 30px;
+ font-family: 'Lato';
+ font-weight: 400;
+ text-align: center;
+ margin: 0;
+ color: whitesmoke;
+}
+
+.about-flex-text h3{
+ text-align: right;
+   margin-right: 70px;
+}
+
+.about-flex-text p{
+ margin-top: 5px;
+ font-size: 16px;
+ opacity: 0.7;
+ font-family: 'Lato';
+ text-align: right;
+}
+  
+  .about-flex-text a{
+   float: right;
+   margin-right: 300px;
+}
+
+
+ }
+ 
+
+@media screen and (max-width: 1030px){
+ .header {
+  background-color: #1d1d1d;
+  width: 100%;
+  height: 200px;
+  display: block;
+  margin: 0;
+  z-index: 1;
+}
+ 
+ .headcontent{
+ width: 567px;
+ height: 50px;
+  margin-top: 15px;
+ margin-left: auto;
+ margin-right: auto;
+ display: flex;
+}
+ 
+ .live-feed{
+ width: 90px;
+ background-color: transparent;
+ display: inline-block;
+ height: 44px;
+ margin-top: 0;
+ margin-left: 20px;
+ color: #ddd;
+}
+
+   .login-btn{
+ margin-top: 0;
+ transition: 0.5s;
+}
+
+
+.signup-btn{
+ margin-top: 0;
+}
+ 
+ .btn-cont{
+ display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 210px;
+  height: 42px;
+}
+ 
+ .header img{
+ height: 44px;
+ width: 177px;
+ margin-top: 15px;
+  margin-left: 0;
+}
+ 
+ .logo-cont{
+ height: 62px;
+ width: 148px;
+ margin-top: 0;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+ 
+}
+
+
+ 
+ @media screen and (max-width: 998px){
+ .steps-widget{
+ position: relative;
+  width: 100%;
+  margin: 0;
+}
+ 
+ .about-us{
+ margin-top: -70px;
+}
+ 
+}
+ 
+ 
+@media screen and (max-width: 950px){
+ 
+ .anime-box{
+ width: 30%;
+ height: 100%;
+ margin: 0;
+ display: inline-block;
+}
+ 
+ .anime-count h1{
+ font-weight: 700;
+ font-size: 35px;
+}
+ 
+ .anime-text p{
+ font-size: 16px;
+}
+
+ }
+ 
+ 
+ @media screen and (max-width: 930px){
+ 
+ .nav-center{
+ width: 650px;
+ margin-left: 10px;
+}
+}
+ 
+ 
+ @media screen and (max-width: 900px){
+  
+.steps-icon{
+ margin-left: 35px;
+ margin-top: 50px;
+ width: 40px;
+ height: 40px;
+}
+
+.steps-text{
+ height: 70px;
+ margin-left: 15px;
+ margin-top: 45px;
+}
+
+.steps-text h2{
+ font-size: 18px;
+}
+
+.steps-text p{
+ font-size: 12px;
+ margin-top: 3px;
+ color: black;
+}
+.slide-title {
+  font-size: 40px;
+}
+  
+  .slider {
+  background: #000;
+  height: 400px;
+  min-height: 400px;
+  max-height: 400px;
+}
+  
+  
+  
+  
+
+
+.about-flex{
+ width: 100%;
+ display: block;
+ height: auto;
+ margin: 0;
+ margin-top: 50px;
+}
+
+.about-flex-img{
+ width: 80%;
+ height:250px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.about-flex-img img{
+ width: 70%;
+ height: 100%;
+ display: block;
+ margin-top: 0;
+ margin-left: auto;
+ margin-right: auto;
+ 
+}  
+.about-flex-text{
+ width: 100%;
+ height: 100%;
+}
+
+.about-flex-text h2{
+ font-size: 25px;
+ font-family: 'Lato';
+ font-weight: 300;
+ text-align: center;
+ margin-top: 50px;
+ text-align: none;
+ color: white;
+}
+
+.about-flex-text h3{
+ font-size: 20px;
+ font-family: 'Lato';
+ font-weight: 300;
+ text-align: left;
+ margin-left: 50px;
+ margin-top: 10px;
+ margin-bottom: 0;
+ color: white;
+}
+
+.about-flex-text p{
+ margin-top: 5px;
+ font-size: 16px;
+ opacity: 0.7;
+ margin-left: 50px;
+ font-family: 'Lato';
+ text-align: left;
+}
+
+.about-flex-text a{
+ width: 120px;
+ height: 40px;
+ line-height: 40px;
+ display: block;
+ float: none;
+ margin-left: auto;
+ margin-right: auto;
+ font-size: 16px;
+ text-align: center;
+ 
+}
+
+
+}
+
+@media screen and (max-width: 800px){
+ .logo-cont{
+ display: none;
+}
+ 
+ .headcontent{
+  margin-top: 0px;
+}
+ 
+ .live-feed{
+ margin-top: 15px;
+}
+ 
+ .header {
+  height: 140px;
+}
+ #navbar{
+  display: none;
+ }
+ 
+}
+
+
+ 
+ 
+ @media screen and (max-width: 790px){
+ 
+   .anime-widget{
+ width: 100%;
+ height: auto;
+ display: block;
+ margin: 0;
+}
+  
+ .anime-box{
+ width: 100%;
+ height: 115px;
+ margin: 0;
+ display: block;
+}
+  
+  .anime-text{
+ display: inline-block;
+ height: 18px;
+ width: 100%;
+  margin-top: 6px;
+ text-align: center;
+}
+  
+  .anime-count{
+ display: inline-block;
+ width: 100%;
+ text-align: center;
+ height: 40px;
+ margin-top: 20px;
+}
+ 
+ .anime-count h1{
+ font-weight: 800;
+ font-size: 40px;
+}
+ 
+ .anime-text p{
+ font-size: 16px;
+  letter-spacing: 2px;
+}
+  
+ }
+ 
+ 
+ @media screen and (max-width: 770px){
+  .steps-widget{
+   width: 650px;
+   height: 620px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+
+.steps-icon{
+ margin-top: 50px;
+ width: 50px;
+ height: 50px;
+ margin-left: 150px;
+ 
+}
+
+.steps-text{
+ display: block;
+ height: 80px;
+ width: 200px;
+ margin-left: 150px;
+ margin-top: 5px;
+}
+
+.steps-text h2{
+ font-size: 20px;
+ font-family: 'Raleway';
+ font-weight: 500;
+ text-align: left;
+ margin-top: 0;
+ margin-bottom: 0;
+}
+
+.steps-text p{
+ font-size: 14px;
+ opacity: 0.9;
+ font-family: 'Raleway';
+ text-align: left;
+ margin-top: 3px;
+}
+  
+  .slide-title {
+  font-weight: 500;
+}
+  
+ }
+ 
+ 
+ 
+ @media screen and (max-width: 650px){
+  .invisible-btn{
+   display: block;
+  }
+  .steps-widget{
+   width: 100%;
+   height: 570px;
+   margin:0;
+   background-color: transparent;
+}
+  
+  .steps-icon{
+ margin-top: 50px;
+ width: 50px;
+ height: 50px;
+ margin top: 30px;
+ margin-left: auto;
+ margin-right: auto;
+   display: block;
+ 
+}
+
+.steps-text{
+ display: block;
+ height: 80px;
+ width: 200px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 5px;
+ color: white;
+}
+  
+  .steps-text h2{
+ font-size: 18px;
+ color: #0095eb;
+}
+
+.steps-text p{
+ font-size: 12px;
+ margin-top: 3px;
+ color: white;
+}
+  
+  .about-us{
+   background-color: black;
+   display: block;
+}
+  
+  .dark-text h1{
+ font-size: 30px;
+   font-weight: 400;
+}
+
+.dark-text b{
+ font-size: 18px;
+}
+
+.dark-text hr{
+ width: 40%;
+ color: #fd961a;
+ margin-left: 30%;
+ margin-top: 10px;
+}
+
+
+ }
+ 
+
+@media screen and (max-width: 566px){
+ .headcontent{
+ width: auto;
+ height: 120px;
+  margin-top: 0;
+ margin-left: 0;
+ margin-right: 0;
+ display: block;
+}
+ 
+ .live-feed{
+ height: 44px;
+ margin-top: 20px;
+ margin-left: 25px;
+ color: #ddd;
+}
+
+ .header {
+  width: 100%;
+  height: 200px;
+}
+ 
+    .login-btn{
+ width: 48.5%;
+ height: 45px;
+ line-height: 40px;
+ margin-top: 0;
+}
+
+
+.signup-btn{
+ width: 48.5%;
+ height: 45px;
+ line-height: 45px;
+ margin-left: 3%;
+ margin-right: 0;
+ margin-top: 0;
+}
+ 
+ .btn-cont{
+ display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  height: 47px;
+}
+ 
+}
+
+ @media screen and (max-width: 500px){
+  .about-flex-img{
+ width: 100%;
+ height:250px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.about-flex-img img{
+ width: 80%;
+ height: 100%;
+ display: block;
+ margin-top: 0;
+ margin-left: auto;
+ margin-right: auto;
+ 
+} 
+  
+  .anime-count h1{
+ font-weight: 600;
+ font-size: 30px;
+}
+ 
+ .anime-text p{
+ font-size: 12px;
+  letter-spacing: 3px;
+}
+  
+  .headers3{
+ font-size: 20px;
+ font-weight: 500;
+}
+  
+ }
+  
+  @media screen and (max-width: 450px){
+  .slide-title {
+   font-size: 30px;
+  font-weight: 300;
+}
+   .logo-2{
+ margin-left: 20px;
+}
+ }
+ 
+ 
+ @media screen and (max-width: 402px){
+  .card {
+  height: 150px;
+  width: 140px;
+}
+  
+  .card-price{
+ font-size: 11px;
+ font-family:'raleway';
+ position: absolute;
+ margin-left: 7px;
+}
+
+.redtxt{
+ font-size: 10px;
+ text-align: center;
+ color: red;
+}
+
+.greentxt{
+ font-size: 10px;
+ text-align: center;
+ color: green;
+}
+
+.smalltxt{
+ font-size: 9px;
+ text-align: center;
+ color: darkgrey;
+}
+
+  .dark-text h1{
+ font-size: 23px;
+   font-weight: 400;
+}
+
+.dark-text b{
+ font-size: 16px;
+}
+  
+  .logo-2{
+  margin-left: 10px;
+}
+   
+ }
+ 
+ @media screen and (max-width: 350px){
+ .headcontent{
+ display: none;
+}
+ .btn-cont{
+ display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 95%;
+  height: 47px;
+}
+ 
+     .login-btn{
+ width: 49.5%;
+ height: 45px;
+ line-height: 40px;
+ margin-top: 20px;
+}
+
+
+.signup-btn{
+ width: 49.5%;
+ height: 45px;
+ line-height: 45px;
+ margin-left: 3%;
+ margin-right: 0;
+ margin-top: 20px;
+}
+ 
+ .header{
+  width: 100%;
+  height: 90px;
+  display: block;
+  margin: 0;
+ }
+ 
+
+}
+
+
+
+
+
+

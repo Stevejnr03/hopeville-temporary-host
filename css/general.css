@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+  
+    /* font-size: 10px; */
+    /* 10px /16px = 0.625 = 62.5% */
+    /* Percentage of user's browser font-size setting */
+    
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+  body {
+    background-color: #fff;
+    font-family: "INTER", sans-serif;
+    line-height: normal;
+    color: #111;
+    overflow-x: hidden;
+
+  
+  }
+  
+  section {
+    margin-bottom: 5rem;
+  }
+  .container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.8rem;
+  }
+  
+  .heading-primary {
+    font-size: 6rem;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+    line-height: 1.1;
+    letter-spacing: -2px;
+  
+  }
+  
+  .heading-secondary {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 2rem 0;
+    line-height: 1.2;
+    color: #182845;
+  }
+  
+  .heading-tertiary {
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #182845;
+    margin: 1.2rem 0;
+  }
+
+  .subheading {
+    font-size: 1.4rem;
+    color: #12b48cd3;
+    font-weight: 600;
+  }
+
+  .text {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin-bottom: 1.8rem;
+  }
+  
+  .text-align-center {
+    text-align: center;
+  }
+  

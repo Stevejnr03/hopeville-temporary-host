@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+	  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+	  <link rel="icon" type="img/png" href="Img/hope-favicon.jpg" />
+    <link rel="stylesheet" href="css/general.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/queries.css"/>
+
+    <link
+			rel="stylesheet"
+			href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" />
+		<link
+			rel="stylesheet"
+			href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" />
+
+		<script defer src="Js/script.js"></script>
+    <script defer src="Js/slide.js"></script>
+    <script defer src="Js/testimonial.js"></script>
+    <title>Hopeville</title>
+</head>
+<body>
+  <div id="modal"  class="modal">
+    <span class="modal-text">Shop our optical collection online!!! </span>
+    <a class="modal-link" href="#">Shop Now</a>
+    <button class="modal-btn" onclick="closeModal()"><i  class="modal-close fa fa-times" aria-hidden="true"></i></button>
+  </div>
+    <header class="header">
+        <div>
+         <a class="hopeville-logo" href="#">
+          <img class="logo" src="Img/hope-logo.jpg" />
+         </a>
+        </div>
+
+
+      <div class="head-1">
+        <nav id="main-nav" class="main-nav">
+          <ul class="main-nav-links">
+            <li><a onclick="closeNavOnClick()" class="link" href="#">Home</a></li>
+            <li><a onclick="closeNavOnClick()" class="link" href="#about">About us</a></li>
+            <li><a onclick="closeNavOnClick()" class="link" href="#services">Services</a></li>
+            <li><a onclick="closeNavOnClick()" class="link" href="#contact">Contact</a></li>
+            <li><a onclick="closeNavOnClick()" class="link" href="#shop">Shop</a></li>
+            <li><a onclick="closeNavOnClick()" class="cta-link" href="#appointment">Book appointment</a></li>
+            </ul>
+        </nav>
+      </div>
+          
+        <button onclick="openClose()" class="btn-mobile-nav">
+          <svg xmlns="http://www.w3.org/2000/svg" id="open-nav" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-mobile-nav w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          
+          <svg xmlns="http://www.w3.org/2000/svg" id="close-nav" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-mobile-nav w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </header>
+
+
+      <section class="hero-section">
+        <div class="hero-slider">
+
+        <ul class="slider-image">
+        <li class="hero-cont hero-image active" style="background-image: linear-gradient(
+          to right bottom,
+          rgba(0, 0, 0, 0.295),
+          rgba(0, 0, 0, 0.24)
+        ),
+        url(/Img/hero-2.jpg)";>
+          <div class="container hero">
+             <p class="hero-text">Your vision, our passion</p>
+             <h1 class="heading-primary">Optometris & Specialist of Eye Care</h1>
+             <div class="hero-links">
+              <a href="#appointment" class="hero-link">Appointment</a>
+              <a href="#how" class="learn-link">Learn more</a>
+             </div>
+          </div>
+         </li>
+
+        <li class="hero-cont hero-image active" style="background-image: linear-gradient(
+          to right bottom,
+          rgba(0, 0, 0, 0.295),
+          rgba(0, 0, 0, 0.24)
+        ),
+        url(/Img/hero-1.jpg)";>
+          <div class="container hero">
+             <p class="hero-text">Pickup or Delivery </p>
+             <h1 class="heading-primary">We Sell Optical Frames and Low Vision Devices.</h1>
+             <div class="hero-links">
+              <a href="#appointment" class="hero-link">Appointment</a>
+              <a href="#how" class="learn-link">Learn more</a>
+             </div>
+          </div>
+         </li>
+
+        <li class="hero-cont hero-image active" style="background-image: linear-gradient(
+          to right bottom,
+          rgba(0, 0, 0, 0.295),
+          rgba(0, 0, 0, 0.24)
+        ),
+        url(/Img/hero-3.jpg)";>
+          <div class="container hero">
+             <p class="hero-text">We Love What We Do</p>
+             <h1 class="heading-primary">Low Vision Eye Specialists</h1>
+             <div class="hero-links">
+              <a href="#appointment" class="hero-link">Appointment</a>
+              <a href="#how" class="learn-link">Learn more</a>
+             </div>
+          </div>
+         </li>
+
+        </ul>
+       </div>
+      </section>
+
+
+      <section id="about" class="about-section">
+      <div class="container about">
+        <div class="about-img-box">
+           <img class="about-img" src="Img/about.jpg"/>
+          </div>
+
+          <div class="about-text-box">
+            <p class="subheading">Get To Know Us</p>
+            <h2 class="heading-secondary">Hopeville Eye Clinic</h2>
+            <p class="text">Hopeville eye clinic is a specialist eye and 
+              vision care centre which has been serving and providing
+               excellent visual eye care services for the Woji area 
+               and all of Port-Harcourt environs in over 10years.</p>
+            <p class="heading-tertiary">10 Years Plus Experience</p>
+            <p class="text">
+              We are a family oriented practice with a severe 
+              and friendly atmosphere for your comfort. We deliver
+               the utmost quality in eye care. Our attention to 
+               details and consistency is what keeps our patients 
+               coming back.
+              </p>
+               <a href="#" class="about-link">Learn more ↓</a>
+              </div>
+        </div>
+      </section>
+
+      <section id="services" class="service-section">
+        <div class="container text-align-center">
+          <p class="subheading">What's Happening</p>
+          <p class="heading-secondary">We're Providing Best Services To Our Customers</p>
+        </div>
+
+        <div class="services container">
+          <div class="service">
+              <img class="service-icon" src="Img/rectina.png"/>
+              <div class="service-text-box">
+                <p class="heading-tertiary">Rectina Services</p>
+                <p class="service-text">It is a long established fact that
+                   reader will be distracted, It is a long established fact that
+                   reader will be distracted</p>
+              </div>
+          </div>
+          
+          <div class="service">
+              <img class="service-icon" src="Img/cataract.png"/>
+              <div class="service-text-box">
+                <p class="heading-tertiary">Cataract Surgery</p>
+                <p class="service-text">It is a long established fact that
+                   reader will be distracted, It is a long established fact that
+                   reader will be distracted</p>
+              </div>
+          </div>
+          
+          <div class="service">
+              <img class="service-icon" src="Img/eyecare (1).png"/>
+              <div class="service-text-box">
+                <p class="heading-tertiary">Intensive Eyecare</p>
+                <p class="service-text">It is a long established fact that
+                   reader will be distracted, It is a long established fact that
+                   reader will be distracted</p>
+              </div>
+          </div>
+          
+          <div class="service">
+              <img class="service-icon" src="Img/glaucoma.png"/>
+              <div class="service-text-box">
+                <p class="heading-tertiary">Glaucoma</p>
+                <p class="service-text">It is a long established fact that
+                   reader will be distracted, It is a long established fact that
+                   reader will be distracted</p>
+              </div>
+          </div>
+          
+          <div class="service">
+              <img class="service-icon" src="Img/usik.png"/>
+              <div class="service-text-box">
+                <p class="heading-tertiary">LASIK Evaluations</p>
+                <p class="service-text">It is a long established fact that
+                   reader will be distracted, It is a long established fact that
+                   reader will be distracted</p>
+              </div>
+          </div>
+          
+          <div class="service">
+              <img class="service-icon" src="Img/contact-lense.png"/>
+              <div class="service-text-box">
+                <p class="heading-tertiary">Contact Lenses</p>
+                <p class="service-text">It is a long established fact that
+                   reader will be distracted, It is a long established fact that
+                   reader will be distracted</p>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="how" class="how-section">
+        <div class="container how">
+          
+
+          <div class="how-text-box">
+            <p class="subheading">How We Work</p>
+            <h2 class="heading-secondary">Our Doctors Help You Awaken Talent & Take You Forward</h2>
+            <p class="text">Eye care is important for your overall health. Your eyes are a 
+              vital part of your body, and they play a role in many important functions, such as 
+              reading, driving, and interacting with the world around you.</p>
+
+
+           <div class="steps">
+            <img class="how-icon" src="Img/eyecare (1).png">
+            <div>
+            <p class="heading-tertiary">Opthalomologist & Eye Care Service</p>
+            <p class="text">
+              Vestibulum ac diam sit amet quam vehicula elemen tum sed sit amet dui praesent sapien pellen tesque .
+            </p>
+            </div>
+           </div>
+
+           <div class="steps">
+            <img class="how-icon" src="Img/Uveitis.png">
+            <div>
+            <p class="heading-tertiary">We Provide Eye Care Advice</p>
+            <p class="text">
+              Vestibulum ac diam sit amet quam vehicula elemen tum sed sit amet dui praesent sapien pellen tesque .
+            </p>
+            </div>
+           </div>
+
+           <div class="steps">
+            <img class="how-icon" src="Img/contact-lense.png">
+            <div>
+            <p class="heading-tertiary">Glasses Work Better Than Lenses</p>
+            <p class="text">
+              Vestibulum ac diam sit amet quam vehicula elemen tum sed sit amet dui praesent sapien pellen tesque .
+            </p>
+            </div>
+           </div>
+           </div>
+              <div class="how-img-box">
+                <img class="how-img" src="Img/how.jpg"/>
+               </div>
+           </div>
+      </section>
+
+    <section id="appointment" class="appoint-test-section">
+
+      <div class="appoint-test-content container">
+        <div class="appointment ">
+          <p class="appointment-heading text-align-center">Book Appointment</p>
+
+          <form class="appointment-form" action="#">
+
+            <div class="input-field">
+            <div>
+              <input id="full-name" type="text" placeholder="John Smith" required />
+            </div>
+
+            <div>
+              <input id="phone" type="text" placeholder="Phone number" required />
+            </div>
+
+            <div>
+              <input id="email" type="email" placeholder="Your Email" required />
+            </div>
+
+            <div>
+              <input id="date" type="datetime" placeholder="Appointment Date & Time" required />
+            </div>
+          </div>
+
+            
+            <div class="appoint-message">
+              <textarea id="message" type="text" placeholder="Message"></textarea>
+            </div>
+
+            <button class="appoint-btn">Book An Appointment</button>
+
+          </form>
+        </div>
+
+        <div class="testimonials slideshow-container">
+          <div class="testimonial mySlides fade">
+            <svg class="testimonial-quote" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#12b48cd3" viewBox="0 0 256 256"><path d="M100,56H40A16,16,0,0,0,24,72v64a16,16,0,0,0,16,16h60v8a32,32,0,0,1-32,32,8,8,0,0,0,0,16,48.05,48.05,0,0,0,48-48V72A16,16,0,0,0,100,56Zm0,80H40V72h60ZM216,56H156a16,16,0,0,0-16,16v64a16,16,0,0,0,16,16h60v8a32,32,0,0,1-32,32,8,8,0,0,0,0,16,48.05,48.05,0,0,0,48-48V72A16,16,0,0,0,216,56Zm0,80H156V72h60Z"></path></svg>
+            <p class="text">A very competent team. 
+              World-class service and care at affordable 
+              prices. When I have my eyes checked in the 
+              top eye clinics in the United Kingdom, the 
+              outcomes are same as those I get from 
+              Hopeville Eye Clinic. I recommend Hopeville 
+              without reservations.
+            </p>
+            
+            <div class="ratings">
+            <div>
+             <p class="heading-tertiary">Benedict Tertsea Shinku</p>
+            </div>
+
+            <div>
+             <i class="testimonial-icon fa fa-star" aria-hidden="true"></i>
+            <i class="testimonial-icon fa fa-star" aria-hidden="true"></i>
+            <i class="testimonial-icon fa fa-star" aria-hidden="true"></i>
+            <i class="testimonial-icon fa fa-star" aria-hidden="true"></i>
+            <i class="testimonial-icon fa fa-star" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+
+          <div class="testimonial mySlides fade">
+            <svg class="testimonial-quote" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#12b48cd3" viewBox="0 0 256 256"><path d="M100,56H40A16,16,0,0,0,24,72v64a16,16,0,0,0,16,16h60v8a32,32,0,0,1-32,32,8,8,0,0,0,0,16,48.05,48.05,0,0,0,48-48V72A16,16,0,0,0,100,56Zm0,80H40V72h60ZM216,56H156a16,16,0,0,0-16,16v64a16,16,0,0,0,16,16h60v8a32,32,0,0,1-32,32,8,8,0,0,0,0,16,48.05,48.05,0,0,0,48-48V72A16,16,0,0,0,216,56Zm0,80H156V72h60Z"></path></svg>
+            <p class="text">Hopeville Eye Clinic is not just a 
+              hospital, but a home. With warm reception, great 
+              , and amazing people. They do not care only for the 
+              eyes, but the 
+              total well-being of their patient. God bless you all.
+            </p>
+            
+            <div class="ratings">
+            <div>
+             <p class="heading-tertiary">Ronke Udoh</p>
+            </div>
+
+            <div>
+             <i class="testimonial-icon fa fa-star" aria-hidden="true"></i>
+            <i class="testimonial-icon fa fa-star" aria-hidden="true"></i>
+            <i class="testimonial-icon fa fa-star" aria-hidden="true"></i>
+            <i class="testimonial-icon fa fa-star" aria-hidden="true"></i>
+            <i class="testimonial-icon fa fa-star" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+          <div class="testimonial mySlides fade">
+            <svg class="testimonial-quote" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#12b48cd3" viewBox="0 0 256 256"><path d="M100,56H40A16,16,0,0,0,24,72v64a16,16,0,0,0,16,16h60v8a32,32,0,0,1-32,32,8,8,0,0,0,0,16,48.05,48.05,0,0,0,48-48V72A16,16,0,0,0,100,56Zm0,80H40V72h60ZM216,56H156a16,16,0,0,0-16,16v64a16,16,0,0,0,16,16h60v8a32,32,0,0,1-32,32,8,8,0,0,0,0,16,48.05,48.05,0,0,0,48-48V72A16,16,0,0,0,216,56Zm0,80H156V72h60Z"></path></svg>
+            <p class="text">Very professional staff, and value for 
+              money is guaranteed! I especially love that the team 
+              is very 
+              fashion forward. Health doesn’t have to be boring.
+            </p>
+            
+            <div class="ratings">
+            <div>
+             <p class="heading-tertiary">Amarachukwu Allison</p>
+            </div>
+
+            <div>
+             <i class="testimonial-icon fa fa-star" aria-hidden="true"></i>
+            <i class="testimonial-icon fa fa-star" aria-hidden="true"></i>
+            <i class="testimonial-icon fa fa-star" aria-hidden="true"></i>
+            <i class="testimonial-icon fa fa-star" aria-hidden="true"></i>
+            <i class="testimonial-icon fa fa-star" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align:center">
+          <span class="dot"><span class="dot-content"></span></span>
+          <span class="dot"><span class="dot-content"></span></span>
+          <span class="dot"><span class="dot-content"></span></span>
+          <span class="dot"><span class="dot-content"></span></span>
+        </div>
+      </div>
+  </section>
+  
+  
+  
+  <section class="doctors-section reveal">
+    <div class="container text-align-center">
+      <p class="subheading">Meet Our Doctors</p>
+      <p class="heading-secondary">We provide Exceptional optical Care For Our Patients</p>
+    </div>
+    
+    <div class="container doctors">
+      <div class="doctor">
+        <div class="doc-img-box">
+          <img class="doc-img" src="Img/doctor-1.jpg"/>
+        </div>
+        <p class="heading-tertiary">Dr. Luiz Frank</p>
+        <p class="text">Optician</p>
+      </div>
+      
+      <div class="doctor">
+        <div class="doc-img-box">
+          <img class="doc-img" src="Img/doctor-3.jpg"/>
+        </div>
+        <p class="heading-tertiary">Dr. Mike Lucas</p>
+        <p class="text">Optician</p>
+      </div>
+      
+      
+      <div class="doctor">
+        <div class="doc-img-box">
+          <img class="doc-img" src="Img/doctor-2.jpg"/>
+        </div>
+        <p class="heading-tertiary">Dr. Maria Jose</p>
+        <p class="text">Optician</p>
+      </div>
+      
+      <div class="doctor">
+        <div class="doc-img-box">
+          <img class="doc-img" src="Img/doctor-4.jpg"/>
+        </div>
+        <p class="heading-tertiary">Dr. Lucas Jose</p>
+        <p class="text">Optician</p>
+      </div>
+
+
+      <div class="doctor">
+        <div class="doc-img-box">
+          <img class="doc-img" src="Img/doctor-5.jpg"/>
+        </div>
+        <p class="heading-tertiary">Dr. Lucas Jose</p>
+        <p class="text">Optician</p>
+      </div>
+
+
+      <div class="doctor">
+        <div class="doc-img-box">
+          <img class="doc-img" src="Img/doctor-6.jpg"/>
+        </div>
+        <p class="heading-tertiary">Dr. Lucas Jose</p>
+        <p class="text">Optician</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact" class="contact-section">
+    <div class="container text-align-center">
+      <p class="subheading">Keep In Touch With Us</p>
+      <p class="heading-secondary">Get Connected With Us For Any Of Your Question</p>
+    </div>  
+    
+    <div class="contact container">
+      <form class="contact-form" action="#">
+        
+        <div class="input-field">
+          <div>
+            <input id="full-name" type="text" placeholder="Full Name*" required />
+          </div>
+          
+          <div>
+            <input id="phone" type="text" placeholder="Phone*" required />
+          </div>
+          
+          <div>
+            <input id="email" type="email" placeholder="Email*" required />
+          </div>
+          
+          <div>
+            <input id="date" type="datetime" placeholder="Subject*" required />
+          </div>
+        </div>
+        
+        <div class="contact-message">
+          <textarea id="message" type="text" placeholder="Your Message"></textarea>
+        </div>
+        
+        <button class="contact-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="shop" class="shop-section">
+    <div class="container text-align-center">
+      <p class="subheading">Our Frames</p>
+      <p class="heading-secondary">Shop Our Products Online Now!!!</p>
+    </div>
+
+
+    <div class="products container">
+      <div class="owl-carousel">
+        <div class="content"><a href="#"><img src="/Img/shop-1.jpg"/></a></div>
+        <div class="content"><a href="#"><img src="/Img/shop-2.jpg"/></a></div>
+        <div class="content"><a href="#"><img src="/Img/shop-3.jpg"/></a></div>
+        <div class="content"><a href="#"><img src="/Img/shop-4.jpg"/></a></div>
+        <div class="content"><a href="#"><img src="/Img/shop-5.jpg"/></a></div>
+        <div class="content"><a href="#"><img src="/Img/shop-6.jpg"/></a></div>
+        <div class="content"><a href="#"><img src="/Img/shop-7.jpg"/></a></div>
+      </div>
+
+      <div class="shop-link-box">
+      <a class="shop-link" href="#">Shop Now</a>
+    </div>
+    </div>
+  </section>
+  
+  <section class="feat-in-section">
+    <div class="feat-in-images">
+      <div><img class="feat-img" src="Img/feat-1.png"></div>
+      <div><img class="feat-img" src="Img/feat-2.png"></div>
+      <div><img class="feat-img" src="Img/feat-3.png"></div>
+      <div><img class="feat-img" src="Img/feat-4.png"></div>
+      <div><img class="feat-img" src="Img/feat-5.png"></div>
+      <div><img class="feat-img" src="Img/feat-6.png"></div>
+    </div>
+</section>
+
+  <section class="blog-section">
+    <div class="container text-align-center">
+      <p class="subheading">Blog & News</p>
+      <p class="heading-secondary">Read Our Latest News & Articles</p>
+    </div>
+    
+    <div class="container blogs">
+      <div class="blog">
+        <img class="blog-img" src="Img/blog-1.jpg"/>
+
+        <div class="blog-text-box">
+          <span class="date">
+            <span class="blog-date"><i class="blog-icon fa fa-user-o" aria-hidden="true"></i>Admin</span>
+            <span class="blog-date"><i class="blog-icon fa fa-calendar-check-o" aria-hidden="true"></i>27 January, 2024</span>
+          </span>
+          <p class="heading-tertiary">Whatever You Do, Make You are Happy</p>
+          <p class="text">Lorem Ipsum is simply dummy text of the and standard dummy text ever since when.
+            
+          </p>
+        </div>
+      </div>
+      
+      <div class="blog">
+        <img class="blog-img" src="Img/blog-2.jpg"/>
+        
+        <div class="blog-text-box">
+          <span class="date">
+            <span class="blog-date"><i class="blog-icon fa fa-user-o" aria-hidden="true"></i>Admin</span>
+            <span class="blog-date"><i class="blog-icon fa fa-calendar-check-o" aria-hidden="true"></i>27 January, 2024</span>
+          </span>
+          <p class="heading-tertiary">The Day I Spent At The Square Medical Facility</p>
+          <p class="text">Lorem Ipsum is simply dummy text of the and standard dummy text ever since when.
+            
+          </p>
+        </div>
+      </div>
+      
+      <div class="blog blog-3">
+        <img class="blog-img" src="Img/blog-3.jpg"/>
+        
+        <div class="blog-text-box">
+          <span class="date">
+            <span class="blog-date"><i class="blog-icon fa fa-user-o" aria-hidden="true"></i>Admin</span>
+            <span class="blog-date"><i class="blog-icon fa fa-calendar-check-o" aria-hidden="true"></i>27 January, 2024</span>
+          </span>
+          <p class="heading-tertiary">How Does Science Help In Optics</p>
+          <p class="text">Lorem Ipsum is simply dummy text of the and standard dummy text ever since when.
+          </p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  
+  <footer class="footer-section">
+    <div class="footer-contents container">
+      <div class="footer-content footer-description ">
+        <a class="footer-logo" href="#">
+          <img class="f-logo" src="Img/hopeville-logo.png" />
+        </a>
+
+        <p class="address">Hopeville eye clinic is a specialist
+           eye and vision care centre which has been serving 
+           and providing excellent visual eye care services 
+           for the Woji area and all of Port-Harcourt 
+           environs in over 10years.</p>
+      </div>
+
+      <div class="footer-content footer-contact">
+        <p class="footer-heading">Contact information</p>
+        <div class="line"></div>
+        <ul class="footer-list">
+          <li><i class="footer-icon fa fa-map-marker" aria-hidden="true"></i><span class="address">2767 Sunrise Street, New York, USA</span></li>
+          <li><i class="footer-icon fa fa-envelope-o" aria-hidden="true"></i>
+            <a class="footer-info-link" href="mailto:hopeville@yahoo.com">hopeville@yahoo.com</a></li>
+
+         <li><i class="footer-icon fa fa-phone" aria-hidden="true"></i>
+            <a class="footer-info-link" href="tel:08083839292">08083839292</a></li>
+
+        </ul>
+      </div>
+
+      <div class="footer-content quick-link">
+        <p class="footer-heading">Quick Links</p>
+        <div class="line"></div>
+        <ul class="footer-list">
+          <li><a class="footer-link" href="#about"><i class="chev fa fa-chevron-right" aria-hidden="true"></i>About Us</a></li>
+          <li><a class="footer-link" href="#services"><i class="chev fa fa-chevron-right" aria-hidden="true"></i>Our Services</a></li>
+          <li><a class="footer-link" href="#contact"><i class="chev fa fa-chevron-right" aria-hidden="true"></i>Contact Us</a></li>
+          <li><a class="footer-link" href="#shop"><i class="chev fa fa-chevron-right" aria-hidden="true"></i>Shop</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-content">
+        <p class="footer-heading">Subscribe Newsletter</p>
+        <div class="line"></div>
+        <div class="news-letter">
+          <input class="news-letter-form" id="email" type="email" placeholder="Email*" required />
+        </div>
+
+        <button class="appoint-btn">Subscribe Now</button>
+      </div>
+    </div>
+
+    <div class="container copyright">
+      <p>Copyright © 2024 Hopeville Eye Clinic</p>
+      <div class="social-icons">
+        <a href="#"><i class="social-icon head-1-icon fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="#"><i class="social-icon head-1-icon fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#"><i class="social-icon head-1-icon fa fa-twitter" aria-hidden="true"></i></a>
+     </div>
+    </div>
+  </footer>
+</body>
+<script src="OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.js"></script>
+<script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+</html>
